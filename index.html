@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NUEVA. | Boutique</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFCF5;--ink:#111;--line:#EAE5DC}
+*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg);color:var(--ink);font-family:Inter,sans-serif}
+.h{display:flex;justify-content:space-between;align-items:center;padding:18px 5%;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,252,245,.9);backdrop-filter:blur(10px);z-index:10}
+.logo{font-family:'Bodoni Moda',serif;font-weight:700;font-size:26px}
+.btn{border:1px solid #111;padding:12px 22px;text-decoration:none;color:#111;font-weight:700;border-radius:100px;font-size:13px}
+.btn-black{background:#111;color:#fff}
+.hero{padding:60px 5%;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:end}
+.hero h1{font-family:'Bodoni Moda',serif;font-size:82px;line-height:.85;letter-spacing:-3px;text-transform:uppercase}
+.hero h1 i{font-weight:400;font-style:italic}
+.hero p{color:#6B6560;margin:18px 0;max-width:420px;line-height:1.5}
+.img-main{height:640px;background:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200') center/cover;border-radius:24px}
+.strip{display:flex;gap:20px;padding:20px 5%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:auto;white-space:nowrap;color:#8C857E;font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+.grid{padding:50px 5%;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{border-radius:20px;overflow:hidden;background:#fff;border:1px solid var(--line)}
+.card-img{height:340px;background-size:cover;background-position:center}
+.card-info{padding:16px;display:flex;justify-content:space-between}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero h1{font-size:48px}.img-main{height:380px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="h"><div class="logo">NUEVA.</div><div style="display:flex;gap:10px"><a class="btn" href="#">LOOKBOOK</a><a class="btn btn-black" href="#">SHOP</a></div></div>
+<div class="strip"><span>NUEVA COLECCION SS26 | PATIO OLMOS LOCAL 214 | ENVIOS A TODO CORDOBA</span></div>
+<section class="hero"><div><h1>MODA QUE <i>NO PIDE</i><br>PERMISO</h1><p>Boutique de autor en Nueva Cordoba. Curaduria y drop semanal.</p><a class="btn btn-black" href="#">VER COLECCION -></a></div><div class="img-main"></div></section>
+<section class="grid"><div class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600')"></div><div class="card-info"><b>BLAZER</b><span>$89.900</span></div></div><div class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=600')"></div><div class="card-info"><b>SET LINO</b><span>$67.500</span></div></div><div class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=600')"></div><div class="card-info"><b>TRENCH</b><span>$124.000</span></div></div></section>
+</body></html>
